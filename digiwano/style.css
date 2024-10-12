@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left:20px ;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+/* BANNER SECTION*/
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff !important;
+    padding-top: 5%;
+}
+
+.hero-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.subscribe-btn{
+    font-size: 0.75rem;
+    width:60px;
+    margin:20px 20px 20px 0px;
+    font-weight: 600;
+    padding: .50em 1.25em;
+}
+/* 
+#banner a:hover{
+    background-color: #a517ba;
+    color: #fff;
+    transition: linear 300ms;
+} */
+
+#banner a{
+    background-color: #fff;
+    color:#a517ba;
+    text-decoration: none;
+    
+}
+
+.fa-bell {
+        margin-left: 10px;
+}
+.img-fluid{
+    float: right;
+}
+
+.bottom-img{
+    width: 100%;
+}
