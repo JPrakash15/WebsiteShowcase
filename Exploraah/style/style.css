@@ -1,0 +1,87 @@
+:root {
+  --primary: #2e7d32;
+  --secondary: #4a90e2;
+  --secondary-bg: #edf5fd;
+  --tertiary: #f0f7ff;
+  --body-text: #4b5563;
+  --label-text: #6b7280;
+  --placeholder-text: #9ca3af;
+  --gold-star: #facc15;
+}
+body {
+  font-family: "poppins", sans-serif;
+}
+.container-1440 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.join-now-btn {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+nav .active {
+  color: var(--primary) !important;
+  text-decoration: underline !important;
+}
+.text-shadow {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.hero .card {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.hero .active {
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+  color: var(--body-text);
+}
+
+/* Keep active tab colored (optional: green for example) */
+.nav-tabs .nav-link.active {
+  color: var(--secondary) !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.service,
+.testimonial {
+  background-color: #f8f5f0;
+}
+
+.testimonial i {
+  color: var(--gold-star) !important;
+}
+
+footer {
+  background-color: #1f2937;
+}
+@media (max-width: 575.98px) {
+  :root {
+    font-size: 14px;
+    text-align: center;
+  }
+  .service .card {
+    align-items: center;
+  }
+  .destination {
+  }
+  .cta img {
+    height: 60vh !important;
+  }
+  .cta button {
+    font-size: 0.6rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    margin-bottom: 20px;
+  }
+  .cta img {
+    height: 75vh !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    padding: 40px 20px;
+  }
+}
